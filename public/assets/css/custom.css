@@ -1,0 +1,193 @@
+
+@import 'variable.css';
+
+:root{
+    scroll-behavior: smooth;
+    /* basecolor */
+    --tp-common-white: #ffffff;
+  --tp-common-black: #031220;
+  --tp-common-black-2: #120101;
+  --tp-common-black-3: #0C140F;
+  --tp-common-black-4: #000000;
+  --tp-common-black-5: #0e1133;
+  --tp-common-green: #26C089;
+  --tp-common-green-2: #3E8454;
+  --tp-common-green-3: #27AA4D;
+  --tp-common-green-4: #20AD96;
+  --tp-common-blue: #4356FF;
+  --tp-common-blue-2: #4270FF;
+  --tp-common-blue-3: #3C66ED;
+  --tp-common-blue-4: #3083FF;
+  --tp-common-cream: #FFF1E0;
+  --tp-common-pink: #FF6470;
+  --tp-common-pink-2: #FC4C56;
+  --tp-common-orange: #F37F43;
+  --tp-common-orange-2: #EE6002;
+  --tp-common-orange-3: #FF9F4B;
+  --tp-common-purple: #E33CFF;
+  --tp-common-purple-2: #E64DFF;
+  --tp-common-yellow: #F5B455;
+  --tp-common-yellow-2: #F47F42;
+  --tp-common-yellow-3: #F4930E;
+  --tp-common-yellow-4: #FFAA2C;
+  --tp-common-yellow-5: #FF8D00;
+  --tp-common-violet: #6151FB;
+  --tp-common-violet-2: #A794C8;
+  --tp-header-primary: #031220;
+  --tp-header-2: #120101;
+  --tp-grey-1: #F1F1F1;
+  --tp-grey-2: #F5F6F8;
+  --tp-grey-3: #F8F8F8;
+  --tp-grey-4: #F7F7F7;
+  --tp-grey-5: #F5F5F5;
+  --tp-grey-6: #DCDCDC;
+  --tp-grey-7: #F9F9F9;
+  --tp-grey-8: #F4FBF9;
+  --tp-grey-9: #F0F8F7;
+  --tp-grey-10: #F3F3F3;
+  --tp-text-body: #49535B;
+  --tp-text-1: #49535B;
+  --tp-text-2: #555C63;
+  --tp-text-3: #777A7C;
+  --tp-text-4: #4B535A;
+  --tp-text-5: #4A545C;
+  --tp-text-6: #6F7377;
+  --tp-text-7: #6B7882;
+  --tp-text-8: #788086;
+  --tp-text-9: #6B737A;
+  --tp-text-10: #828282;
+  --tp-text-11: #5F6160;
+  --tp-text-12: #565958;
+  --tp-text-13: #868D94;
+  --tp-text-14: #56595C;
+  --tp-text-15: #a1a2ab;
+  --tp-theme-1: #3D6CE7;
+  --tp-theme-2: #02b6c0;
+  --tp-theme-3: #007A70;
+  --tp-border-1: #dedede;
+}
+
+.btn-daftar {
+    padding: 10px 20px;
+    background: var(--caribbean-green);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    text-align: end;
+    font-size: 14px;
+    background: var(--tp-common-blue-2);
+}
+.btn-daftar:hover{
+    border: 1px solid var(--tp-common-blue-2);
+    background: none;
+}
+
+.custom-menu{
+    margin-bottom: 0;
+}
+.btn-more{
+    display: flex;
+    gap: 20px;
+}
+.category__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-content{
+    min-height: 80px;
+    width: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 211, 66, 0.1);
+    border-radius: 10px;
+}
+
+.category__title{
+    color: var(--tp-common-blue-4);
+}
+
+/*--------------------------------------------------------------
+# Recent Blog Posts
+--------------------------------------------------------------*/
+ .post-box {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    background: white;
+    transition: 0.3s;
+    height: 100%;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+   .post-box .post-img {
+    overflow: hidden;
+    margin: -30px -30px 15px -30px;
+    position: relative;
+  }
+  
+   .post-box .post-img img {
+    width: 100%;
+    height: 180px;
+    transition: 0.5s;
+  }
+  
+   .post-box .post-date {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(1, 41, 112, 0.6);
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+   .post-box .post-title {
+    font-size: 24px;
+    color: #012970;
+    font-weight: 700;
+    margin-bottom: 18px;
+    position: relative;
+    transition: 0.3s;
+  }
+  
+   .post-box .readmore {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    line-height: 1;
+    transition: 0.3s;
+  }
+  
+   .post-box .readmore i {
+    line-height: 0;
+    margin-left: 4px;
+    font-size: 18px;
+  }
+  
+   .post-box:hover .post-title {
+    color: #4154f1;
+  }
+  
+   .post-box:hover .post-img img {
+    transform: rotate(6deg) scale(1.2);
+  }
+  .btn-more-news{
+    margin-top: 40px;
+    padding: 15px 25px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    transition: 0.8s;
+    border: 1px solid var(--tp-common-blue-3);
+  }
+  .btn-more-news:hover{
+    box-shadow: 1px 5px 9px 1px #00000024;
+  }
+  
