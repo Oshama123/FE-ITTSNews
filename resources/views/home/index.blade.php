@@ -450,7 +450,7 @@
                                 terbaik kami</p>
 
                             <div class="about__btn">
-                                <a href="itts ac id" class="tp-btn tp-btn-2">Read more</a>
+                                <a href="https://itts.ac.id/" class="tp-btn tp-btn-2">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -460,7 +460,7 @@
         <!-- about area end -->
 
         <!-- research area start -->
-        <section class="research__area research__border grey-bg-3 pt-115 pb-90 p-relative z-index-1">
+        <section class="research__area research__border grey-bg-3 pt-115 pb-90 p-relative z-index-1" id="news">
             <div class="research__shape">
                 <img class="research__shape-1 d-none d-sm-block" src="assets/img/research/research-shape-1.png"
                     alt="">
@@ -477,42 +477,41 @@
                         </div>
                     </div>
                 </div>
-                <div class="row d-flex flex-lg-row flex-column gy-5">
-
-                    <div class="col-lg-4">
-                        <div class="post-box">
-                            <div class="post-img"><img src="assets/img/blog/blog-big-5.jpg" class="img-fluid"
+                <div class="row gy-5">
+                    <div class="col-lg-4 col-md-4 col-ms-6">
+                        <div class="news-box">
+                            <div class="news-img"><img src="assets/img/blog/blog-big-5.jpg" class="img-fluid"
                                     alt=""></div>
-                            <span class="post-date">Tue, September 15</span>
-                            <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit
+                            <span class="news-date">Tue, September 15</span>
+                            <h3 class="news-title">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur
+                                sit
                             </h3>
-                            <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i
+                            <a href="/artikel" class="readmore stretched-link mt-auto"><span>Read More</span><i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
 
-                    <div class="col-lg-4">
-                        <div class="post-box">
-                            <div class="post-img"><img src="assets/img/blog/blog-big-5.jpg" class="img-fluid"
+                    <div class="col-lg-4 col-md-4 col-ms-6">
+                        <div class="news-box">
+                            <div class="news-img"><img src="assets/img/blog/blog-big-5.jpg" class="img-fluid"
                                     alt=""></div>
-                            <span class="post-date">Fri, August 28</span>
-                            <h3 class="post-title">Et repellendus molestiae qui est sed omnis voluptates magnam</h3>
-                            <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i
+                            <span class="news-date">Fri, August 28</span>
+                            <h3 class="news-title">Et repellendus molestiae qui est sed omnis voluptates magnam</h3>
+                            <a href="/artikel" class="readmore stretched-link mt-auto"><span>Read More</span><i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
 
-                    <div class="col-lg-4">
-                        <div class="post-box">
-                            <div class="post-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid"
+                    <div class="col-lg-4 col-md-4 col-ms-6">
+                        <div class="news-box">
+                            <div class="news-img"><img src="assets/img/blog/blog-3.jpg" class="img-fluid"
                                     alt=""></div>
-                            <span class="post-date">Mon, July 11</span>
-                            <h3 class="post-title">Quia assumenda est et veritatis aut quae</h3>
-                            <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i
+                            <span class="news-date">Mon, July 11</span>
+                            <h3 class="news-title">Quia assumenda est et veritatis aut quae</h3>
+                            <a href="/artikel" class="readmore stretched-link mt-auto"><span>Read More</span><i
                                     class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
-
                 </div>
                 <div class="d-flex justify-content-center">
                     <a href="/news" class="btn-more-news">Brows All News</a>
@@ -522,12 +521,12 @@
         <!-- research area end -->
 
         <!-- event area start -->
-        <section class="event__area pt-115">
+        <section class="event__area pt-115" id="Trainings">
             <div class="container">
                 <div class="row">
                     <div class="col-xxl-12">
                         <div class="section__title-wrapper-2 text-center mb-60">
-                            <span class="section__title-pre-2">Featured Courses</span>
+                            <span class="section__title-pre-2">Training & Webinar</span>
                             <h3 class="section__title-2">Ayo Ikuti Semua Kegiatan ITTS</h3>
                         </div>
                     </div>
@@ -535,13 +534,9 @@
                 <br>
 
 
-                <ul class="nav nav-tabs" id="myTabs">
+                <ul class="nav nav-tabs" id="trainingTabs">
                     <li class="nav-item">
-                        <a class="nav-link active" id="currentTraining-tab" data-toggle="tab"
-                            href="#currentTraining">Current Training</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="upcomingTraining-tab" data-toggle="tab"
+                        <a class="nav-link active" id="upcomingTraining-tab" data-toggle="tab"
                             href="#upcomingTraining">Upcoming Training</a>
                     </li>
                     <li class="nav-item">
@@ -551,144 +546,10 @@
                 </ul>
 
                 <div class="tab-content mt-2">
-                    <div class="tab-pane fade show active" id="currentTraining">
-                        <h4>Current Training</h4>
-                        <div class="row">
-                            <div class="col-xxl-12">
-                                <div
-                                    class="event__item white-bg mb-10 transition-3 p-relative d-lg-flex align-items-center justify-content-between">
-                                    <div class="event__left d-sm-flex align-items-center">
-                                        <div class="event__date">
-                                            <h4>02</h4>
-                                            <p>October, 2022</p>
-                                        </div>
-                                        <div class="event__content">
-                                            <div class="event__meta">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#"><svg width="17" height="17"
-                                                                viewBox="0 0 17 17" fill="none"
-                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                <path
-                                                                    d="M8.49992 9.51253C9.72047 9.51253 10.7099 8.52308 10.7099 7.30253C10.7099 6.08198 9.72047 5.09253 8.49992 5.09253C7.27937 5.09253 6.28992 6.08198 6.28992 7.30253C6.28992 8.52308 7.27937 9.51253 8.49992 9.51253Z"
-                                                                    stroke="#5F6160" stroke-width="1.5" />
-                                                                <path
-                                                                    d="M2.56416 6.01334C3.95958 -0.120822 13.0475 -0.113738 14.4358 6.02043C15.2504 9.61876 13.0121 12.6646 11.05 14.5488C9.62625 15.9229 7.37375 15.9229 5.94291 14.5488C3.98791 12.6646 1.74958 9.61168 2.56416 6.01334Z"
-                                                                    stroke="#5F6160" stroke-width="1.5" />
-                                                            </svg>
-                                                            New York, US</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <h3 class="event__title">
-                                                <a href="#">Global education fall meeting for everyone</a>
-                                            </h3>
-
-                                            <div class="event__person">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#">
-                                                            <img src="assets/img/event/event-person-1.jpg" alt="">
-                                                            <img src="assets/img/event/event-person-2.jpg" alt="">
-                                                            <span>David Karry</span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="event__right d-sm-flex align-items-center">
-                                        <div class="event__time">
-                                            <span>
-                                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M13.75 7.50024C13.75 10.9502 10.95 13.7502 7.5 13.7502C4.05 13.7502 1.25 10.9502 1.25 7.50024C1.25 4.05024 4.05 1.25024 7.5 1.25024C10.95 1.25024 13.75 4.05024 13.75 7.50024Z"
-                                                        stroke="#258E46" stroke-width="1.5" stroke-linecap="round"
-                                                        stroke-linejoin="round" />
-                                                    <path
-                                                        d="M9.8188 9.48735L7.8813 8.3311C7.5438 8.1311 7.2688 7.64985 7.2688 7.2561V4.6936"
-                                                        stroke="#258E46" stroke-width="1.5" stroke-linecap="round"
-                                                        stroke-linejoin="round" />
-                                                </svg>
-                                                10:30am - 12:30pm
-                                            </span>
-                                        </div>
-                                        <div class="event__more ml-30">
-                                            <a href="#" class="tp-btn-5 tp-btn-7">View Events </a>
-                                        </div>
-                                    </div>
-                                </div>
 
 
-                                <div
-                                    class="event__item white-bg mb-10 transition-3 p-relative d-lg-flex align-items-center justify-content-between">
-                                    <div class="event__left d-sm-flex align-items-center">
-                                        <div class="event__date">
-                                            <h4>27</h4>
-                                            <p>October, 2022</p>
-                                        </div>
-                                        <div class="event__content">
-                                            <div class="event__meta">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#"><svg width="17" height="17"
-                                                                viewBox="0 0 17 17" fill="none"
-                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                <path
-                                                                    d="M8.49992 9.51253C9.72047 9.51253 10.7099 8.52308 10.7099 7.30253C10.7099 6.08198 9.72047 5.09253 8.49992 5.09253C7.27937 5.09253 6.28992 6.08198 6.28992 7.30253C6.28992 8.52308 7.27937 9.51253 8.49992 9.51253Z"
-                                                                    stroke="#5F6160" stroke-width="1.5" />
-                                                                <path
-                                                                    d="M2.56416 6.01334C3.95958 -0.120822 13.0475 -0.113738 14.4358 6.02043C15.2504 9.61876 13.0121 12.6646 11.05 14.5488C9.62625 15.9229 7.37375 15.9229 5.94291 14.5488C3.98791 12.6646 1.74958 9.61168 2.56416 6.01334Z"
-                                                                    stroke="#5F6160" stroke-width="1.5" />
-                                                            </svg>
-                                                            New York, US</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <h3 class="event__title">
-                                                <a href="#">Scottish creatives to receive funded business.</a>
-                                            </h3>
 
-                                            <div class="event__person">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#">
-                                                            <img src="assets/img/event/event-person-1.jpg" alt="">
-                                                            <img src="assets/img/event/event-person-2.jpg" alt="">
-                                                            <span>David Karry</span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="event__right d-sm-flex align-items-center">
-                                        <div class="event__time">
-                                            <span>
-                                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M13.75 7.50024C13.75 10.9502 10.95 13.7502 7.5 13.7502C4.05 13.7502 1.25 10.9502 1.25 7.50024C1.25 4.05024 4.05 1.25024 7.5 1.25024C10.95 1.25024 13.75 4.05024 13.75 7.50024Z"
-                                                        stroke="#258E46" stroke-width="1.5" stroke-linecap="round"
-                                                        stroke-linejoin="round" />
-                                                    <path
-                                                        d="M9.8188 9.48735L7.8813 8.3311C7.5438 8.1311 7.2688 7.64985 7.2688 7.2561V4.6936"
-                                                        stroke="#258E46" stroke-width="1.5" stroke-linecap="round"
-                                                        stroke-linejoin="round" />
-                                                </svg>
-                                                04:00pm - 06:30pm
-                                            </span>
-                                        </div>
-                                        <div class="event__more ml-30">
-                                            <a href="#" class="tp-btn-5 tp-btn-7">View Events </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="upcomingTraining">
+                    <div class="tab-pane fade show active" id="upcomingTraining">
                         <h4>Upcoming Training</h4>
                         <div class="row">
                             <div class="col-xxl-12">
@@ -753,7 +614,8 @@
                                             </span>
                                         </div>
                                         <div class="event__more ml-30">
-                                            <a href="#" class="tp-btn-5 tp-btn-7">View Events </a>
+                                            <a class="tp-btn-5 tp-btn-7" data-bs-toggle="modal"
+                                                data-bs-target="#eventModal2">View Events </a>
                                         </div>
                                     </div>
                                 </div>
@@ -817,7 +679,8 @@
                                             </span>
                                         </div>
                                         <div class="event__more ml-30">
-                                            <a href="#" class="tp-btn-5 tp-btn-7">View Events </a>
+                                            <a href="#" class="tp-btn-5 tp-btn-7" data-bs-toggle="modal"
+                                                data-bs-target="#eventModal3">View Events </a>
                                         </div>
                                     </div>
                                 </div>
@@ -916,9 +779,9 @@
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-lg-6">
                         <div class="team__wrapper mb-45 pl-70">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Dosen dan Pembicara Berkualitas di Kampus ITTS: Seorang ahli yang menginspirasi, memberikan
+                                wawasan mendalam, dan mendukung pengembangan ilmu di lingkungan akademis dengan keahliannya
+                                sebagai pembicara dan pendidik di ITTS.</p>
                         </div>
                     </div>
                 </div>
@@ -930,12 +793,6 @@
                                     <img src="assets/img/team/team-shape-1.png" alt="">
                                 </div>
                                 <img src="assets/img/team/pakagung.png" alt="">
-                                <div class="team__social transition-3">
-                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                                </div>
                             </div>
                             <div class="team__content">
                                 <h3 class="team__title">
@@ -952,12 +809,6 @@
                                     <img src="assets/img/team/team-shape-2.png" alt="">
                                 </div>
                                 <img src="assets/img/team/team-2.png" alt="">
-                                <div class="team__social transition-3">
-                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                                </div>
                             </div>
                             <div class="team__content">
                                 <h3 class="team__title">
@@ -974,12 +825,6 @@
                                     <img src="assets/img/team/team-shape-3.png" alt="">
                                 </div>
                                 <img src="assets/img/team/team-3.png" alt="">
-                                <div class="team__social transition-3">
-                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                                </div>
                             </div>
                             <div class="team__content">
                                 <h3 class="team__title">
@@ -996,12 +841,6 @@
                                     <img src="assets/img/team/team-shape-4.png" alt="">
                                 </div>
                                 <img src="assets/img/team/team-4.png" alt="">
-                                <div class="team__social transition-3">
-                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-                                </div>
                             </div>
                             <div class="team__content">
                                 <h3 class="team__title">
@@ -1015,6 +854,98 @@
             </div>
         </section>
         <!-- team area end -->
+
+        <!-- Modal 2 -->
+        <div class="modal fade" id="eventModal2" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="d-flex justify-content-center">
+                    <div class="modal-content">
+                        <div class="modal-header">
+
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <img src={{ asset('assets/img/flayer.jpg') }} alt=""
+                                            class="img-fluid img-event">
+                                    </div>
+                                    <div class="col-lg-5 img-content">
+                                        <h5 class="headline">BEASISWA SAMPAI LULUS!</h5>
+                                        <p class="desc">Institut Teknologi Tangerang Selatan membuka beasiswa hingga 30
+                                            November
+                                            2023. Benefit utama yang bisa kamu dapatkan adalah mendapatkan subsidi biaya
+                                            hingga
+                                            semester 8, bisa fully funded juga tergantung hasil seleksi
+                                            yapp🙌<br><br>Penerima
+                                            beasiswa ini memiliki peluang mendapatkan kerja sebelum lulus lhoo..yuk langsung
+                                            aja
+                                            daftar sekarang yapp, kali aja ITTS jembatanmu menggapai impian dibidang
+                                            IT.<br><br>Daftar melalui link :<br>bit.ly/beasiswa-GSK<br><br>Info
+                                            Pendaftaran:<br>📱0877-7277-1775<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="/pendaftaran">
+                                <button type="button" class="btn btn-primary">Daftar Pelatihan</button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 3 -->
+        <div class="modal fade" id="eventModal3" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="d-flex justify-content-center">
+                    <div class="modal-content">
+                        <div class="modal-header">
+
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <img src={{ asset('assets/img/flayer.jpg') }} alt=""
+                                            class="img-fluid img-event">
+                                    </div>
+                                    <div class="col-lg-5 img-content">
+                                        <h5 class="headline">BEASISWA SAMPAI LULUS!</h5>
+                                        <p class="desc">Institut Teknologi Tangerang Selatan membuka beasiswa hingga 30
+                                            November
+                                            2023. Benefit utama yang bisa kamu dapatkan adalah mendapatkan subsidi biaya
+                                            hingga
+                                            semester 8, bisa fully funded juga tergantung hasil seleksi
+                                            yapp🙌<br><br>Penerima
+                                            beasiswa ini memiliki peluang mendapatkan kerja sebelum lulus lhoo..yuk langsung
+                                            aja
+                                            daftar sekarang yapp, kali aja ITTS jembatanmu menggapai impian dibidang
+                                            IT.<br><br>Daftar melalui link :<br>bit.ly/beasiswa-GSK<br><br>Info
+                                            Pendaftaran:<br>📱0877-7277-1775<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="/pendaftaran">
+                                <button type="button" class="btn btn-primary">Daftar Pelatihan</button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>

@@ -19,3 +19,11 @@ Route::get('/absen', function () {
 Route::get('/sertifikasi', function () {
     return view('home.sertification');
 });
+
+Route::get('/news', function () {
+    return view('home.news');
+});
+
+Route::get('/artikel', function () {
+    return view('home.artikel');
+});

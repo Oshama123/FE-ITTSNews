@@ -42,12 +42,12 @@
 
 <!--  CSS File -->
 <!-- CSS here -->
-<link rel="stylesheet" href="{{ asset('assets/css/vendor_css/bootstrap.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/vendor_css/meanmenu.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/vendor_css/animate.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/vendor_css/owl-carousel.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/vendor_css/swiper-bundle.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/vendor_css/backtotop.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/vendor_css/magnific-popup.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/vendor_css/nice-select.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/vendor_css/font-awesome-pro.css') }}">
+<link rel="stylesheet" href="assets/css/vendor_css/bootstrap.css">
+<link rel="stylesheet" href="assets/css/vendor_css/meanmenu.css">
+<link rel="stylesheet" href="assets/css/vendor_css/animate.css">
+<link rel="stylesheet" href="assets/css/vendor_css/owl-carousel.css">
+<link rel="stylesheet" href="assets/css/vendor_css/swiper-bundle.css">
+<link rel="stylesheet" href="assets/css/vendor_css/backtotop.css">
+<link rel="stylesheet" href="assets/css/vendor_css/magnific-popup.css">
+<link rel="stylesheet" href="assets/css/vendor_css/nice-select.css">
+<link rel="stylesheet" href="assets/css/vendor_css/font-awesome-pro.css">

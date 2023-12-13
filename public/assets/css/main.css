@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+* ol, * ul{
+  padding-left: 0 !important;
+}
+
 
 
 /*---------------------------------
