@@ -353,3 +353,6 @@
     margin-top: 10px;
   }
   
+  .btn-view{
+    cursor: pointer;
+  }

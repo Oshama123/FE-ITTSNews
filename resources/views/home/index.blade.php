@@ -614,7 +614,7 @@
                                             </span>
                                         </div>
                                         <div class="event__more ml-30">
-                                            <a class="tp-btn-5 tp-btn-7" data-bs-toggle="modal"
+                                            <a class="tp-btn-5 tp-btn-7  btn-view" data-bs-toggle="modal"
                                                 data-bs-target="#eventModal2">View Events </a>
                                         </div>
                                     </div>
@@ -679,7 +679,7 @@
                                             </span>
                                         </div>
                                         <div class="event__more ml-30">
-                                            <a href="#" class="tp-btn-5 tp-btn-7" data-bs-toggle="modal"
+                                            <a class="tp-btn-5 tp-btn-7 btn-view" data-bs-toggle="modal"
                                                 data-bs-target="#eventModal3">View Events </a>
                                         </div>
                                     </div>
@@ -751,7 +751,7 @@
                                             </span>
                                         </div>
                                         <div class="event__more ml-30">
-                                            <a href="#" class="tp-btn-5 tp-btn-7">View Events </a>
+                                            <a class="tp-btn-5 tp-btn-7 btn-view">View Events </a>
                                         </div>
                                     </div>
                                 </div>
